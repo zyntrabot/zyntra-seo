@@ -7,10 +7,6 @@ url: "https://zyntrabot.github.io"
 theme: minima
 markdown: kramdown
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
 author:
   name: ZyntraBOT
   website: https://zyntrabot.xyz
