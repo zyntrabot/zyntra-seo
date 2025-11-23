@@ -1,97 +1,112 @@
 ---
 layout: home
-title: "ZyntraBOT – Ana Sayfa"
+title: "ZyntraBOT – Discord Güvenlik ve Yönetim Botu (2025)"
+description: "ZyntraBOT 2025: Anti-nuke, guard sistemi, webhook koruma, loglama ve çoklu dil desteği ile Discord sunucularını tam korumaya alır."
 ---
 
-# 🔐 ZyntraBOT Güvenlik Rehberi (2025)
+# 🛡️ ZyntraBOT – 2025 Güvenlik Standartlarında Discord Koruması
 
-Discord topluluklarında güvenlik artık bir seçenek değil — zorunluluk.  
-Küçük veya büyük tüm sunucular; rol silme, kanal silme, izin yükseltme, webhook saldırıları ve token çalma girişimlerine maruz kalıyor.
+Discord sunucularında güvenlik artık bir lüks değil — kesin bir gereklilik.  
+Kanal silme, rol yok etme, izinsiz tanım yükseltme, webhook çalma veya sunucuya zarar verme girişimleri her yıl daha da yaygınlaşıyor.
 
-**ZyntraBOT**, modern guard altyapısıyla bu saldırıları **gerçek zamanlı** tespit eder, engeller ve sunucu yöneticilerine anında bildirim gönderir.  
-Tamamen ücretsizdir ve her ölçekten topluluk için güçlü bir koruma sunar.
-
----
-
-## ➡️ Botu Sunucuna Ekle  
-[🔗 ZyntraBOT’u Davet Et](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
-
-## 🌐 Resmî Web Sitesi  
-[🌍 zyntrabot.xyz](https://zyntrabot.xyz/)
-
-## 👥 Destek Sunucusu  
-[💬 Discord Destek Sunucusu](https://discord.gg/mvkywr753k)
+**ZyntraBOT**, modern guard altyapısıyla bu tehditleri *gerçek zamanlı olarak algılar*, bloklar ve yöneticilere anında bildirim gönderir.  
+Üstelik tamamen ücretsizdir ve büyük/küçük tüm topluluklar için uygundur.
 
 ---
 
-## 🔒 Discord Sunucu Güvenliği: 2025'te Kendinizi Nasıl Korursunuz?
+# 🚀 Hızlı Başlangıç
 
-### ⭐ 1. Rol ve izin değişikliklerini izleyin  
-Hack girişimleri çoğunlukla izin yükseltme ile başlar. ZyntraBOT anında tespit edip loglar.
+### ➜ **ZyntraBOT’u Sunucuna Ekle**
+[🔗 Botu Davet Et](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
 
-### ⭐ 2. Kanal silme & rol silme koruması  
-Saldırganlar içerik yok etmeye çalışır. Guard sistemi bunu tamamen durdurur.
+### 🌍 **Resmî Web Sitesi**
+[🌐 zyntrabot.xyz](https://zyntrabot.xyz)
 
-### ⭐ 3. Webhook güvenliği  
-Webhook çalmak 2024–2025 döneminin en yaygın saldırı türüdür. ZyntraBOT bunu otomatik engeller.
+### 💬 **Destek Sunucusu**
+[🔗 Discord Destek Sunucusu](https://discord.gg/mvkywr753k)
 
-### ⭐ 4. Güçlü yönetici kadrosu  
-Hiçbir bot, hacklenen admin hesabını durduramaz. Yetkileri sadece güvendiğiniz kişilere verin.
+---
+
+# 🔐 Discord Sunucusu Güvenliği – 2025 Rehberi
+
+### ⭐ 1. İzin değişikliklerini izleyin  
+Saldırganlar genellikle **rol izni oynayarak** başlar. ZyntraBOT, tüm izin hareketlerini anında loglar.
+
+### ⭐ 2. Kanal ve rol silme girişimlerini engelleyin  
+Anti-nuke sistemi; toplu silme, kanal yok etme, rol patlatma gibi zararlı eylemleri otomatik durdurur.
+
+### ⭐ 3. Webhook koruması  
+Webhook çalınması, 2024–2025’in en yaygın saldırıları arasında. ZyntraBOT bunu algılar ve direkt engeller.
+
+### ⭐ 4. Admin yetkilerini sınırlayın  
+En büyük güvenlik riski: hacklenen yönetici hesabı. Yetkiyi sadece güvendiğin kişilere ver.
+
+---
+
+# 💠 Neden ZyntraBOT?
+
+- ⚡ **Gerçek zamanlı guard sistemi**
+- 🔒 **Anti-nuke koruması**
+- 📁 **Gelişmiş loglama altyapısı**
+- 🌍 **Çoklu dil desteği (TR / EN + genişletilebilir)**
+- 🟢 **%100 ücretsiz ve kesintisiz çalışır**
+- 🔧 **Modüler yapısıyla genişletilebilir**
 
 ---
 
 # 🌍 English Version
 
-## 🚀 ZyntraBOT – Discord Server Protection (2025)
+## 🛡️ ZyntraBOT – Modern Discord Security (2025)
 
 Security is no longer optional for Discord communities.  
-Every server — big or small — faces threats like role deletion, channel wipes, permission escalation, webhook hijacking and token-stealing attacks.
+Servers of all sizes face threats like role deletion, channel wipes, permission escalation, webhook hijacking and account compromises.
 
-**ZyntraBOT** detects and blocks these attacks **in real-time**, alerting server admins instantly.  
-It is completely free and ideal for both small and large communities.
+**ZyntraBOT** detects and blocks these attacks in **real-time**, keeping your community safe and stable.
 
-### ➡️ Invite ZyntraBOT  
-[🔗 Invite Bot to Your Server](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
+---
 
-### 🌐 Official Website  
-[🌍 zyntrabot.xyz](https://zyntrabot.xyz/)
+### ➜ **Invite ZyntraBOT**
+[🔗 Add the Bot to Your Server](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
 
-### 👥 Support Server  
-[💬 Join Support Discord](https://discord.gg/mvkywr753k)
+### 🌐 **Official Website**
+[🌍 zyntrabot.xyz](https://zyntrabot.xyz)
+
+### 💬 **Support Server**
+[🔗 Join Support Discord](https://discord.gg/mvkywr753k)
 
 ---
 
 ## 🔐 How to Protect Your Discord Server in 2025
 
 ### ⭐ 1. Monitor role & permission changes  
-Attackers often begin by modifying permissions.
+Attackers commonly begin by modifying high-level permissions.
 
 ### ⭐ 2. Protect channels and roles from deletion  
-Most raids start by wiping server assets.
+Most raids rely on fast channel/role destruction. ZyntraBOT prevents this.
 
-### ⭐ 3. Webhook security  
-Webhook hijacking is one of the most common attack vectors.
+### ⭐ 3. Webhook protection  
+Webhook hijacking is a critical attack vector in 2024–2025.
 
-### ⭐ 4. Strong admin structure  
-Limit permissions to trusted users only.
-
----
-
-# 💠 Neden ZyntraBOT?
-
-- 7/24 aktif guard sistemi  
-- Anlık saldırı tespit & koruma  
-- Gelişmiş loglama altyapısı  
-- Çoklu dil desteği  
-- Tamamen ücretsiz  
+### ⭐ 4. Maintain a trusted admin team  
+Bots cannot stop a compromised owner/admin account—grant permissions wisely.
 
 ---
 
-# 📢 Sunucunu güvenle yönet!
+# 💠 Why Choose ZyntraBOT?
 
-ZyntraBOT, özellikle yeni topluluklar için **güçlü bir güvenlik temeli** oluşturur.  
-2025 standartlarına uygun guard ve moderasyon özellikleriyle sunucunuzu tamamen koruma altına alır.
+- ⚡ Real-time guard system  
+- 🔒 Anti-nuke protection  
+- 📁 Detailed logging infrastructure  
+- 🌍 Multilingual support  
+- 🆓 Completely free  
+- 🧩 Modular, scalable architecture  
 
-### ➡️ ZyntraBOT’u ekle ve sunucunu koru  
-[🔗 Botu Ekle](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
+---
 
+# 📢 Sunucunuzu güvenle yönetin!
+
+ZyntraBOT, topluluklar için **güçlü, modern ve sürdürülebilir bir güvenlik katmanı** oluşturur.  
+2025 güvenlik standartlarına uygun altyapısıyla sunucunuzu her zaman güvende tutar.
+
+### ➜ Botu ekleyin ve sunucunuzu koruyun  
+[🔗 ZyntraBOT’u Davet Et](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
