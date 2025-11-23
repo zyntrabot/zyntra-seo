@@ -10,14 +10,14 @@
 
   <!-- Özellikler Sayfası -->
   <url>
-    <loc>https://zyntrabot.github.io/zyntra-seo/zyntrabot-ozellikler.md</loc>
+    <loc>https://zyntrabot.github.io/zyntra-seo/zyntrabot-ozellikler.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Güvenlik Rehberi (index.md) -->
+  <!-- Güvenlik Rehberi -->
   <url>
-    <loc>https://zyntrabot.github.io/zyntra-seo/index.md</loc>
+    <loc>https://zyntrabot.github.io/zyntra-seo/index.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
