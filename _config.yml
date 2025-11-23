@@ -1,10 +1,13 @@
 title: "ZyntraBOT – Discord Security 2025"
 description: "ZyntraBOT: 2025 güvenlik odaklı Discord botu. Guard, anti-nuke, webhook koruma, loglama ve çoklu dil desteği."
 
+# Site adresleri
 baseurl: "/zyntra-seo"
 url: "https://zyntrabot.github.io"
 
-theme: minima
+# Tema kaldırıldı → Minima XML bozan layout ekliyordu
+theme: null
+
 markdown: kramdown
 
 author:
@@ -12,7 +15,7 @@ author:
   website: https://zyntrabot.xyz
   discord: https://discord.gg/mvkywr753k
 
-# ⭐ Banner ayarı
+# Banner ayarı
 banner:
   enabled: true
   image: "/zyntra-seo/assets/images/banner.png"
@@ -25,5 +28,9 @@ defaults:
     values:
       layout: "default"
 
+# Jekyll'in otomatik sitemap üretmesini ENGELLİYORUM
+plugins: []
+
+# Google doğrulama dosyasını dahil et
 include:
   - googlebad0618b9dcbe2e0.html
