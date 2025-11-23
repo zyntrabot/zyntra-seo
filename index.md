@@ -1,6 +1,6 @@
 ---
-layout: default
-title: ZyntraBOT Güvenlik Rehberi
+layout: home
+title: "ZyntraBOT – Ana Sayfa"
 ---
 
 # 🔐 ZyntraBOT Güvenlik Rehberi (2025)
