@@ -1,6 +1,9 @@
-# zyntra-seo
+---
+layout: default
+title: ZyntraBOT Güvenlik Rehberi
+---
 
-## 🚀 ZyntraBOT – Discord Sunucu Güvenliği (2025)
+# ZyntraBOT Güvenlik Rehberi (2025)
 Günümüz Discord topluluklarında güvenlik artık lüks değil, zorunlu hâle geldi. Büyük ya da küçük fark etmeksizin her sunucu; rol silme, kanal silme, izin yükseltme, webhook saldırıları ve token çalma girişimleriyle karşı karşıya kalıyor.
 
 ZyntraBOT, modern guard altyapısıyla bu saldırıları **gerçek zamanlı** tespit eder, durdurur ve sunucu yetkilisine anında bildirim gönderir.  
