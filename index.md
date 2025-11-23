@@ -3,78 +3,95 @@ layout: default
 title: ZyntraBOT Güvenlik Rehberi
 ---
 
-# ZyntraBOT Güvenlik Rehberi (2025)
-Günümüz Discord topluluklarında güvenlik artık lüks değil, zorunlu hâle geldi. Büyük ya da küçük fark etmeksizin her sunucu; rol silme, kanal silme, izin yükseltme, webhook saldırıları ve token çalma girişimleriyle karşı karşıya kalıyor.
+# 🔐 ZyntraBOT Güvenlik Rehberi (2025)
 
-ZyntraBOT, modern guard altyapısıyla bu saldırıları **gerçek zamanlı** tespit eder, durdurur ve sunucu yetkilisine anında bildirim gönderir.  
-Tamamen ücretsizdir ve küçük topluluklar için bile fark yaratır.
+Discord topluluklarında güvenlik artık bir seçenek değil — zorunluluk.  
+Küçük veya büyük tüm sunucular; rol silme, kanal silme, izin yükseltme, webhook saldırıları ve token çalma girişimlerine maruz kalıyor.
 
-➡️ **Botu sunucuna ekle:**  
-https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8
+**ZyntraBOT**, modern guard altyapısıyla bu saldırıları **gerçek zamanlı** tespit eder, engeller ve sunucu yöneticilerine anında bildirim gönderir.  
+Tamamen ücretsizdir ve her ölçekten topluluk için güçlü bir koruma sunar.
 
 ---
 
-## 🔒 Discord Sunucu Güvenliği: 2025’te Kendinizi Nasıl Korursunuz?
-Sunucunuzu korumak için şu adımlar hayati önem taşır:
+## ➡️ Botu Sunucuna Ekle  
+[🔗 ZyntraBOT’u Davet Et](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
+
+## 🌐 Resmî Web Sitesi  
+[🌍 zyntrabot.xyz](https://zyntrabot.xyz/)
+
+## 👥 Destek Sunucusu  
+[💬 Discord Destek Sunucusu](https://discord.gg/mvkywr753k)
+
+---
+
+## 🔒 Discord Sunucu Güvenliği: 2025'te Kendinizi Nasıl Korursunuz?
 
 ### ⭐ 1. Rol ve izin değişikliklerini izleyin  
-Hack girişimleri genellikle izin yükseltmeyle başlar. ZyntraBOT bu değişiklikleri anında loglar.
+Hack girişimleri çoğunlukla izin yükseltme ile başlar. ZyntraBOT anında tespit edip loglar.
 
 ### ⭐ 2. Kanal silme & rol silme koruması  
-Saldırganlar çoğu zaman ilk olarak sunucu içeriğini yok etmeye çalışır. Guard sistemleri bunu engeller.
+Saldırganlar içerik yok etmeye çalışır. Guard sistemi bunu tamamen durdurur.
 
 ### ⭐ 3. Webhook güvenliği  
-Webhook çalma 2024–2025’in en yaygın saldırı türlerinden biri. ZyntraBOT bu girişimleri otomatik olarak keser.
+Webhook çalmak 2024–2025 döneminin en yaygın saldırı türüdür. ZyntraBOT bunu otomatik engeller.
 
 ### ⭐ 4. Güçlü yönetici kadrosu  
-En güçlü bot bile kötü niyetli yönetici hesabını durduramaz. Yetkileri sadece güvendiğiniz kişilere verin.
+Hiçbir bot, hacklenen admin hesabını durduramaz. Yetkileri sadece güvendiğiniz kişilere verin.
 
 ---
 
 # 🌍 English Version
 
 ## 🚀 ZyntraBOT – Discord Server Protection (2025)
-Security in Discord communities is no longer optional. Both small and large servers face threats like role deletion, channel deletion, permission escalation, webhook attacks and token stealing attempts.
 
-ZyntraBOT detects and blocks these attacks **in real time**, sending immediate alerts to server admins.  
-It’s completely free and ideal even for small communities.
+Security is no longer optional for Discord communities.  
+Every server — big or small — faces threats like role deletion, channel wipes, permission escalation, webhook hijacking and token-stealing attacks.
 
-➡️ **Invite ZyntraBOT to your server:**  
-https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8
+**ZyntraBOT** detects and blocks these attacks **in real-time**, alerting server admins instantly.  
+It is completely free and ideal for both small and large communities.
+
+### ➡️ Invite ZyntraBOT  
+[🔗 Invite Bot to Your Server](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
+
+### 🌐 Official Website  
+[🌍 zyntrabot.xyz](https://zyntrabot.xyz/)
+
+### 👥 Support Server  
+[💬 Join Support Discord](https://discord.gg/mvkywr753k)
 
 ---
 
-## 🔒 How to Protect Your Discord Server in 2025
-Here are the key steps to keep your server safe:
+## 🔐 How to Protect Your Discord Server in 2025
 
 ### ⭐ 1. Monitor role & permission changes  
-Attackers often start by modifying permissions. ZyntraBOT logs and alerts instantly.
+Attackers often begin by modifying permissions.
 
 ### ⭐ 2. Protect channels and roles from deletion  
-Most raids attempt to wipe server assets first. Guard systems block this behavior.
+Most raids start by wiping server assets.
 
 ### ⭐ 3. Webhook security  
-Webhook hijacking is one of the most common attack vectors in 2024–2025.
+Webhook hijacking is one of the most common attack vectors.
 
 ### ⭐ 4. Strong admin structure  
-No bot can fully save a server if an admin account is compromised. Keep permissions limited.
+Limit permissions to trusted users only.
 
 ---
 
 # 💠 Neden ZyntraBOT?
 
 - 7/24 aktif guard sistemi  
-- Otomatik saldırı tespit sistemi  
-- Gelişmiş loglama  
+- Anlık saldırı tespit & koruma  
+- Gelişmiş loglama altyapısı  
 - Çoklu dil desteği  
-- Ücretsiz
+- Tamamen ücretsiz  
 
 ---
 
 # 📢 Sunucunu güvenle yönet!
 
-ZyntraBOT, özellikle yeni topluluklar için **tam bir güvenlik temeli** oluşturur.  
-Hem moderasyon hem de guard yetenekleriyle sunucunu 2025 standartlarına taşır.
+ZyntraBOT, özellikle yeni topluluklar için **güçlü bir güvenlik temeli** oluşturur.  
+2025 standartlarına uygun guard ve moderasyon özellikleriyle sunucunuzu tamamen koruma altına alır.
 
-➡️ **ZyntraBOT’u ekle ve sunucunu koru:**  
-https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8
+### ➡️ ZyntraBOT’u ekle ve sunucunu koru  
+[🔗 Botu Ekle](https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8)
+
