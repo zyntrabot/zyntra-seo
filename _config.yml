@@ -1,26 +1,26 @@
-title: "ZyntraBOT – Güvenlik & SEO Bilgi Merkezi"
-description: "Discord güvenlik rehberi, bot özellikleri ve 2025 koruma standartları."
-theme: jekyll-theme-cayman
-
-url: "https://zyntrabot.github.io"
+title: "ZyntraBOT – Discord Security 2025"
+description: "ZyntraBOT: 2025 güvenlik odaklı Discord botu. Guard, anti-nuke, webhook koruma, loglama ve çoklu dil desteği."
 baseurl: "/zyntra-seo"
+url: "https://zyntrabot.github.io"
 
+theme: minima
 markdown: kramdown
-highlighter: rouge
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-exclude:
-  - README.md
-  - googlebad0618b9dcbe2e0.html
+author:
+  name: ZyntraBOT
+  website: https://zyntrabot.xyz
+  discord: https://discord.gg/mvkywr753k
 
-# Menü
-navbar:
-  - name: Ana Sayfa
-    link: /
-  - name: Özellikler
-    link: /zyntrabot-ozellikler
-  - name: Güvenlik Rehberi
-    link: /index
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+include:
+  - googlebad0618b9dcbe2e0.html
