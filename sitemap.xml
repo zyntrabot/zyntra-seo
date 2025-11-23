@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://zyntrabot.github.io/zyntra-seo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Özellikler Sayfası -->
+  <url>
+    <loc>https://zyntrabot.github.io/zyntra-seo/zyntrabot-ozellikler.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Güvenlik Rehberi (index.md) -->
+  <url>
+    <loc>https://zyntrabot.github.io/zyntra-seo/index.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
