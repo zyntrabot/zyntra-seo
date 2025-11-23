@@ -3,152 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   {% seo %}
-
   <link rel="stylesheet" href="/zyntra-seo/assets/css/style.css">
-
-  <style>
-    /* ==========================
-       GLOBAL
-    ========================== */
-    body {
-      margin: 0;
-      background: #0d1117;
-      color: #e2e8f0;
-      font-family: "Inter", sans-serif;
-      overflow-x: hidden;
-      line-height: 1.6;
-    }
-
-    .page-container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
-      animation: fadeIn .7s ease forwards;
-      opacity: 0;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* ==========================
-       HERO / BANNER
-    ========================== */
-    .hero-banner {
-      width: 100%;
-      height: 320px;
-      background: url('/zyntra-seo/assets/images/banner.png') center/cover no-repeat;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
-    }
-
-    .hero-title {
-      position: relative;
-      z-index: 2;
-      font-size: 48px;
-      font-weight: 800;
-      color: #fff;
-      text-shadow: 0 0 20px rgba(139,92,246,0.9);
-      letter-spacing: 1px;
-    }
-
-    /* ==========================
-       BUTTON
-    ========================== */
-    .btn-zyntra {
-      display: inline-block;
-      padding: 14px 26px;
-      font-size: 18px;
-      font-weight: 600;
-      border-radius: 8px;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(90deg, #8b5cf6, #6366f1);
-      box-shadow: 0 0 18px rgba(139, 92, 246, 0.6);
-      transition: 0.25s ease;
-    }
-
-    .btn-zyntra:hover {
-      background: linear-gradient(90deg, #a78bfa, #818cf8);
-      transform: translateY(-3px);
-      box-shadow: 0 0 25px rgba(139, 92, 246, 0.9);
-    }
-
-    /* ==========================
-       FOOTER
-    ========================== */
-    footer {
-      text-align: center;
-      opacity: .4;
-      margin-top: 50px;
-      font-size: 14px;
-      padding-bottom: 20px;
-    }
-
-    footer a {
-      color: #8b5cf6;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* ==========================
-       RESPONSIVE
-    ========================== */
-    @media (max-width: 768px) {
-      .hero-title { font-size: 36px; }
-      .hero-banner { height: 250px; }
-    }
-
-    @media (max-width: 480px) {
-      .hero-title { font-size: 28px; }
-      .hero-banner { height: 200px; }
-      .page-container { padding: 15px; }
-    }
-
-  </style>
 </head>
 
 <body>
 
-  <!-- HERO / BANNER -->
-  <div class="hero-banner">
-    <div class="hero-overlay"></div>
-    <div class="hero-title">ZyntraBOT</div>
-  </div>
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+  <nav class="nav-glass">
+    <div class="nav-logo">ZyntraBOT</div>
+    <div class="nav-links">
+      <a href="/" class="nav-link">Ana Sayfa</a>
+      <a href="https://zyntrabot.xyz" target="_blank" class="nav-link">Website</a>
+      <a href="https://discord.gg/mvkywr753k" target="_blank" class="nav-btn">Discord</a>
+    </div>
+  </nav>
 
-  <!-- CONTENT -->
-  <div class="page-container">
-    {{ content }}
+  <!-- =========================
+       HERO SECTION
+  ========================== -->
+  <header class="hero-section">
+    <div class="neon-grid"></div>
 
-    <div style="text-align:center; margin-top:40px;">
-      <a class="btn-zyntra"
-        href="https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8">
-        ➜ ZyntraBOT'u Sunucuna Ekle
+    <div class="hero-content">
+      <h1 class="hero-title">ZyntraBOT</h1>
+      <p class="hero-subtitle">2025’in en gelişmiş Discord güvenlik & yönetim botu.</p>
+
+      <a class="btn-zyntra big"
+         href="https://discord.com/oauth2/authorize?client_id=1431665424331702502&scope=bot+applications.commands&permissions=8">
+        ➜ Sunucuna Ekle
       </a>
     </div>
-  </div>
+  </header>
 
+  <!-- =========================
+       CONTENT (MARKDOWN AREA)
+  ========================== -->
+  <section class="page-container reveal">
+    {{ content }}
+  </section>
+
+  <!-- =========================
+       FEATURE CARDS
+  ========================== -->
+  <section class="features">
+    <div class="feature-card reveal">
+      <h3>⚡ Anti-Nuke Güvenlik</h3>
+      <p>Rol silme, kanal yok etme, webhook spam gibi saldırıları anında engeller.</p>
+    </div>
+
+    <div class="feature-card reveal">
+      <h3>🔒 Gelişmiş Guard Sistemi</h3>
+      <p>Whitelist, otomatik rollback, detaylı loglama ve izinsiz işlem kontrolü.</p>
+    </div>
+
+    <div class="feature-card reveal">
+      <h3>🌍 Çoklu Dil Desteği</h3>
+      <p>TR / EN başta olmak üzere genişletilebilir modüler dil altyapısı.</p>
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
   <footer>
-    <p>
-      ZyntraBOT © 2025 • 
-      <a href="https://zyntrabot.xyz" target="_blank">Website</a> • 
-      <a href="https://discord.gg/mvkywr753k" target="_blank">Discord</a>
-    </p>
+    ZyntraBOT © 2025 • <a href="https://zyntrabot.xyz">Website</a> • 
+    <a href="https://discord.gg/mvkywr753k">Discord</a>
   </footer>
 
 </body>
