@@ -1,0 +1,14 @@
+title: "ZyntraBOT"
+description: "Discord Sunucu Güvenliği ve Guard Odaklı Rehberler"
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
