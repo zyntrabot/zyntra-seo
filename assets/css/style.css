@@ -1,0 +1,74 @@
+/* ------------------------------
+   ZYNTRABOT NEON PURPLE THEME
+--------------------------------*/
+
+body {
+  background: #0a0f1f;
+  color: #ffffffd9;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner */
+.hero-banner {
+  width: 100%;
+  height: 320px;
+  background: url('/zyntra-seo/assets/images/banner.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px #9b4bff80 inset;
+  border-bottom: 1px solid #9b4bff40;
+}
+
+/* Neon Title */
+.hero-title {
+  font-size: 54px;
+  font-weight: 800;
+  color: #d38aff;
+  text-shadow: 0 0 20px #c770ff, 0 0 40px #9a4dfc;
+}
+
+/* Glow button */
+.btn-zyntra {
+  display: inline-block;
+  background: linear-gradient(90deg, #8b3ffd, #b764ff);
+  padding: 14px 28px;
+  border-radius: 12px;
+  color: #fff !important;
+  font-weight: 700;
+  transition: .25s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 0 20px #b764ff70;
+}
+
+.btn-zyntra:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px #b764ff;
+}
+
+/* Page container */
+.page-container {
+  max-width: 850px;
+  margin: auto;
+  padding: 40px 15px;
+}
+
+/* Section titles */
+h1, h2, h3 {
+  color: #e6caff;
+  text-shadow: 0 0 10px #b764ff60;
+}
+
+/* 404 page */
+.not-found-box {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.not-found-box h1 {
+  font-size: 90px;
+  color: #ff86ff;
+  text-shadow: 0 0 25px #ff4eff;
+}
