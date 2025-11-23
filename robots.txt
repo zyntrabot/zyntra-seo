@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zyntrabot.github.io/zyntra-seo/sitemap.xml
