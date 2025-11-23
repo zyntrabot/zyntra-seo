@@ -1,13 +1,33 @@
 /* ------------------------------
-   ZYNTRABOT NEON PURPLE THEME
+   ZYNTRABOT – PREMIUM NEON PURPLE THEME
 --------------------------------*/
 
+/* Fade-in on load */
 body {
   background: #0a0f1f;
   color: #ffffffd9;
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Scroll Reveal Animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all .6s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Banner */
@@ -20,6 +40,13 @@ body {
   justify-content: center;
   box-shadow: 0 0 40px #9b4bff80 inset;
   border-bottom: 1px solid #9b4bff40;
+  animation: bannerFloat 7s ease-in-out infinite;
+}
+
+@keyframes bannerFloat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
 }
 
 /* Neon Title */
@@ -28,6 +55,13 @@ body {
   font-weight: 800;
   color: #d38aff;
   text-shadow: 0 0 20px #c770ff, 0 0 40px #9a4dfc;
+  animation: glowPulse 4s infinite ease-in-out;
+}
+
+@keyframes glowPulse {
+  0% { text-shadow: 0 0 20px #c770ff, 0 0 40px #9a4dfc; }
+  50% { text-shadow: 0 0 35px #e38aff, 0 0 55px #b764ff; }
+  100% { text-shadow: 0 0 20px #c770ff, 0 0 40px #9a4dfc; }
 }
 
 /* Glow button */
@@ -45,7 +79,7 @@ body {
 
 .btn-zyntra:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 35px #b764ff;
+  box-shadow: 0 0 45px #b764ff;
 }
 
 /* Page container */
@@ -71,4 +105,34 @@ h1, h2, h3 {
   font-size: 90px;
   color: #ff86ff;
   text-shadow: 0 0 25px #ff4eff;
+}
+
+/* ------------------------------
+   MOBILE OPTIMIZATION
+--------------------------------*/
+
+@media (max-width: 768px) {
+
+  .hero-banner {
+    height: 230px;
+    box-shadow: 0 0 25px #9b4bff40 inset;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .page-container {
+    padding: 20px;
+  }
+
+  .btn-zyntra {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
 }
